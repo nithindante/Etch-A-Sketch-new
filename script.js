@@ -1,7 +1,7 @@
 let grids = document.querySelector('.grids');
 let noOfSquares = 16;
 let divs=document.createElement('div');
-function createGrids(div1,div2){
+function createGrids(div1,div2){       // function to create a set of divs inside a div so as to make the grid 
     for(let i=0;i<noOfSquares;i++)
     {
         let div1 = document.createElement('div');
@@ -21,7 +21,7 @@ function createGrids(div1,div2){
     }
 createGrids(divs,divs);
 let button = document.querySelector('button');
-button.addEventListener('click',function()
+button.addEventListener('click',function()      // Checks for a click in the button and removes all the divs from grids
 {
     noOfSquares = prompt("enter the no of squares");
     let gridNew = document.querySelectorAll('.div1');
