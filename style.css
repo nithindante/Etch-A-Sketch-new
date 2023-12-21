@@ -1,0 +1,56 @@
+.newDiv{
+    background-color: whitesmoke;
+   
+border: 1px solid;
+display: flex;
+flex-grow: 1;
+}
+
+.grids{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    flex-direction: column;
+    border: 1 px solid;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+button{
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.secondDiv{
+  display: flex;
+  flex-grow: 1;
+}
+
+.thirdDiv{
+    flex-grow: 1;
+    border: 1 px solid;
+    
+}
+  .fourthDiv{
+      flex-grow: 1;
+      border: 1 px solid;
+      
+  }
+
+  .div1{
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .div2{
+      flex-grow: 1;
+      border: 1 px solid;
+      
+  }
